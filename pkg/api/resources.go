@@ -67,6 +67,7 @@ type User struct {
 	Suspended   int            `json:"suspended"`
 	SwiftKeys   KeysDefinition `json:"swift_keys"`
 	UserID      string         `json:"user_id"`
+	Tenant      string         `json:"tenant,omitempty`
 }
 
 type Stats struct {
